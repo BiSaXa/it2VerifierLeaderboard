@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portal 2 Verifier Leaderboard</title>
+	<link rel="stylesheet" href="../p2VerifierLeaderboard/style.css">
+	<link rel='icon' sizes='192x192' href='../p2VerifierLeaderboard/purplecup.png'>
+</head>
+<body style="background-color: rgba(25,25,25,255);">
+	<style type="text/css">
+		@font-face {
+    font-family: 'verdana';
+    src: url('Verdana.woff2') format('woff2'),
+         url('Verdana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+		#table{
+			font-size: 500%;
+			font-family: verdana;
+			background-color: #202020;
+			color: #6a8ed2;
+			table-layout: auto;
+			width: 100%;
+			border-collapse: collapse;
+		}
+		h1{text-align:center;}
+		td{
+			border: 5px solid #303030;
+			padding: 10px;
+		}
+	</style>
+	<h1 style="color: powderblue; font-family:verdana">Portal 2 Verifier Leaderboard</h1>
+	<div id="board">
+		<table id="table">
+		</table>
+	</div>
+	<script type="text/javascript" src="../p2VerifierLeaderboard/showStats.js"></script>
+	<!-- button id="exportCSVBtn" class="button" style="color: #6a8ed2;">Export To CSV</button -->
+	<!-- button id="exportTXTBtn" class="button" style="color: #6a8ed2;">Export TXT</button -->
+</body>
+
+</html>
