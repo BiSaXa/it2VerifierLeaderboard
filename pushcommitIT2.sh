@@ -1,3 +1,4 @@
+#!/bin/bash
 cd .
 node getStats.js
 git checkout gh-pages
