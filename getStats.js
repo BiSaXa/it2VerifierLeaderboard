@@ -81,7 +81,7 @@ for (key in result) {
 /*var txtInput = fetch('output.txt')
   .then(response => response.text())
   .then(text => document.getElementById("table").innerHTML = text)*/
-var stream = fs.createWriteStream("D:\\GitHub\\it2VerifierLeaderboard\\output.txt");
+var stream = fs.createWriteStream("output.txt");
 	stream.once('open', function(fd) {
 	  stream.write(output);
 	  stream.end();
